@@ -18,7 +18,14 @@ def assign_rooms(array)
   end
   return room_assignments
 end
+
 def printer(names)
- puts "Hello, my name is #{name}."
- puts "Hello, #{name}! You'll be assigned to room #{index + 1}!"
+badge_array = batch_badge_creator(names)
+room_assignments = assign_rooms(names)
+  badge_array.each do |string|
+    puts string
+  end
+  room_assignments.each do |string|
+    puts string
+  end
 end
