@@ -19,6 +19,6 @@ def assign_rooms(array)
   return room_assignments
 end
 def printer(names)
- "Hello, my name is #{name}."
- "Hello, #{name}! You'll be assigned to room #{index + 1}!"
+ puts "Hello, my name is #{name}."
+ puts "Hello, #{name}! You'll be assigned to room #{index + 1}!"
 end
